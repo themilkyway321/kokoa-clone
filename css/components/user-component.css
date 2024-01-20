@@ -1,0 +1,23 @@
+
+.user-component{
+    justify-content: space-between;
+    
+}
+
+.user-component, .user-component__column{
+    display: flex;
+    align-items: center;
+}
+.user-component__column img {
+    border-radius: 40px 30px 40px 30px;
+}
+.user-component__title{
+    font-size: 21px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+   
+}
+.user-component__text{
+    margin-left: 20px;
+}

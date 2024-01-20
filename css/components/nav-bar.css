@@ -1,0 +1,38 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fb;
+    padding: 20px 0;
+    border: var(--horizontal-space);
+    font-size: 16px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav__btn{
+    text-align: center;
+}
+.nav__btn a p {
+    margin-top: 5px;
+}
+.nav__chat{
+    position: relative;
+}
+.nav__btn a iconify-icon{
+    position: relative;
+}
+.nav__chat::after {
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    content: '74';
+    background-color: #fc6425;
+    width: 27px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 12px;
+    line-height: 25px;
+}

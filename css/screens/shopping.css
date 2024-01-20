@@ -1,0 +1,159 @@
+.shopping-screen-header ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.shopping-screen-header ul  li {
+    margin-bottom: -2px;
+    padding:20px 20px;
+    text-align: center;
+    
+}
+.shopping-screen-header ul li:nth-child(2){
+    color: black;
+    font-weight: 600;
+    border-bottom: 3.5px solid black;
+}
+
+.shopping-screen-live {
+    margin: 20px 0;
+     display: flex;
+    width: 98%;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    overflow: hidden;
+}
+.live-screen{
+    background-color: #f0edaa;
+    padding: 30px 100px ;
+    height: 200px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+.live-screen-top {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+.live-screen-top span {
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.streaming{
+    background-color: #fd0132;
+}
+.watch{
+    background-color: #70747780;
+}
+.general {
+    background-color: gray;
+}
+.special{
+    background-color: #59ba9686;
+}
+.live-screen-bottom{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.live-text{
+    display: flex;
+    position: relative;
+}
+/* .live-text iconify-icon{
+    flex: 1;
+} */
+.live-text  p{
+    animation: plane 4s linear infinite;
+    position: absolute;
+    width: 300px;
+    top: 2px;
+}
+@keyframes plane {
+    0% {
+      left: 130px;
+    }
+    100% {
+      left: -900%;
+    }
+    
+  }
+
+.shopping-screen-btns{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 13.5px;
+}
+.shopping-screen-btns iconify-icon{
+    padding: 14px;
+    border-radius: 22px;
+    border:1px solid #ddd;
+    background-color: #faf8fb;
+    margin-bottom: 8px;
+}
+.shopping-screen-search{
+    margin: 30px 0;
+  text-align: center;
+  position: relative;
+}
+.shopping-screen-search input{
+    width: 90%;
+    padding: 18px 40px;
+    padding-left: 50px;
+    background-color:#f5f5f5 ;
+    border: none;
+    border-radius: 7px;
+}
+.shopping-screen-search input::placeholder{
+    font-size: 18px;
+}
+.shopping-screen-search iconify-icon{
+    position: absolute;
+    left: 40px;
+    top:12px ;
+}
+
+.shopping-screen-deals-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+.shopping-screen-deals-header >h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.shopping-screen-deals-header > div{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.shopping-screen-deals-items{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.shopping-screen-deals-items >div {
+    border-radius: 8px;
+    width: 300px;
+    height: 190px;
+    background-color: #f0edaa;
+    position: relative;
+}
+.deal-order {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: #ea612b;
+    color: #fff5f1;
+    padding: 6px 10px;
+    border-radius: 6px;
+}

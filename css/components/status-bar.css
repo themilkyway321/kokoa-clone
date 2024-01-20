@@ -1,0 +1,12 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: black;
+}
+.status-bar__column:last-child{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

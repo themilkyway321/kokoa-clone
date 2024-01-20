@@ -1,0 +1,57 @@
+
+.more-screen{
+    color: black;
+}
+.more-pay{
+    background-color: var(--yellow);
+    padding: 25px 20px;
+    
+}
+.more-pay-contain{
+    display: flex;
+    justify-content: space-between;
+
+}
+.more-pay-contain, .more-pay-contain__column{
+    display: flex;
+    align-items: center;
+}
+
+.more-pay-link{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fffce1;
+    border-radius: 7px;
+}
+.pay-bold {
+    font-weight: 600;
+    margin: 20px 0;
+}
+.more-pay-etcs span {
+    margin-right: 15px;
+}
+
+
+
+.more-menus{
+    display: flex;
+    text-align: center;
+    margin: 20px 0;
+}
+.more-menus__column{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.more-menus__column li {
+margin-bottom: 40px;
+}
+.more-ads {
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+    line-height: 150px;
+    background-color: #fffce1;
+    margin: auto;
+}

@@ -1,0 +1,42 @@
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+  }
+
+  .friends-screen__channel{
+    margin: 18px 0;
+  }
+  .friends-screen__channel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+  }
+  .friends-screen__channel .user-component__column{
+    margin: 20px 0;
+  }
+  .user-component__column__right{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px
+  }
+  .channel-logo{
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--yellow);
+    background: url('https://api.iconify.design/bi/chat-fill.svg?color=%23423630&width=25&height=25') no-repeat center center / contain;
+  }
+  .channel-logo-bg {
+    width: 70px;
+    height: 70px;
+    background-color: var(--yellow);
+    border-radius: 40px 30px 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

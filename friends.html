@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Clone</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>20:01</span>
+        </div>
+        <div class="status-bar__column">
+            <iconify-icon icon="dashicons:chart-bar" width="25" height="25"></iconify-icon>
+            <p>LTE</p>
+            <iconify-icon icon="mingcute:battery-fill" width="29" height="29"></iconify-icon>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h2>친구</h2>
+        <div class="screen-header__icons">
+            <iconify-icon icon="ic:baseline-search" width="30" height="30"></iconify-icon>
+            <iconify-icon icon="akar-icons:person-add" width="30" height="30"></iconify-icon>
+            <iconify-icon icon="uil:music" width="30" height="30"></iconify-icon>
+            <iconify-icon icon="system-uicons:settings"  width="38" height="38"></iconify-icon>
+        </div>
+    </header>
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="/images/profile.jpg" width="80px" height="80px" alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Miri</h4>
+                    <!-- <h6 class="user-component__subtitle">Hello!</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <iconify-icon icon="clarity:angle-line" width="20" height="20"></iconify-icon>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <div class="channel-logo-bg"><p class="channel-logo">Ch</p></div>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">채널</h4>                       
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div class="user-component__column__right">
+                        <span>2</span>
+                        <iconify-icon icon="clarity:angle-line" width="25" height="25" rotate="90deg"></iconify-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>친구 331</span>
+                <iconify-icon icon="clarity:angle-line" width="20" height="20"></iconify-icon>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="/images/defalut-profile.png" width="80px" height="80px" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Someone</h4>
+                        <h6 class="user-component__subtitle">Hello!</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a href="friends.html">
+                    <iconify-icon icon="ion:person" width="35" height="35"></iconify-icon>
+                    <p>친구</p>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="chats.html">
+                    <iconify-icon icon="majesticons:chat" class="nav__chat" style="color: #b8bcbd;" width="35" height="35"></iconify-icon>
+                    <p>채팅</p>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="shopping.html">
+                    <iconify-icon icon="iconamoon:shopping-bag-fill" style="color: #b8bcbd;" width="35" height="35"></iconify-icon>
+                    <p>쇼핑</p>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="more.html">
+                    <iconify-icon icon="bi:three-dots" style="color: #b8bcbd;" width="35" height="35"></iconify-icon>
+                    <p>더보기</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>핸드폰 화면에서 확인이 가능합니다! 화면 크기를 줄여주세요~!</span>
+      </div>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

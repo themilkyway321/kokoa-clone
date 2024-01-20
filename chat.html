@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Clone</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="chat-container">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>20:01</span>
+            </div>
+            <div class="status-bar__column">
+                <iconify-icon icon="dashicons:chart-bar" width="25" height="25"></iconify-icon>
+                <p>LTE</p>
+                <iconify-icon icon="mingcute:battery-fill" width="29" height="29"></iconify-icon>
+            </div>
+        </div>
+        <header class="chat-header">
+        <div><a href="chats.html">    <iconify-icon icon="fa:angle-up" width="30" height="30" rotate="270deg"></iconify-icon></a></div>
+           <div> <h2>Someone</h2></div>
+            <div class="chat-header__icons">
+                <div>
+                    <iconify-icon icon="ic:baseline-search" width="30" height="30"></iconify-icon>
+                    <iconify-icon icon="ic:baseline-menu" width="30" height="30"></iconify-icon>
+                </div>
+            </div>
+        </header>
+        <main class="chat-texts">
+            <div class="date">2024년 1월 19일 금요일</div>
+            <div class="chat-side">
+                <img src="/images/defalut-profile.png" width="50px" height="50px" alt="">
+                <div class="chat-side-profile">
+                    <p>Someone</p>
+                    <div class="chat-side-text">
+                        <p>어디야?</p>
+                        <span>19:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-side chat-mine">
+                   
+                    <div class="chat-side-text">
+                        <p>전화했었네!</p>
+                        <span>19:59</span>
+                    </div>
+                </div>
+        </main>
+        <form class="reply">
+            <div class="reply__column">
+                <iconify-icon icon="f7:plus-app" width="30" height="30"></iconify-icon>
+              </div>
+              <div class="reply__column reply-icons">
+                <input type="text" placeholder="Write a message..." />
+                <iconify-icon icon="bx:smile" width="28" height="28"></iconify-icon>
+                <button>
+                    <iconify-icon icon="tabler:arrow-up" width="28" height="28"></iconify-icon>
+                </button>
+              </div>
+        </form>
+</div>
+<div id="no-mobile">
+    <span>핸드폰 화면에서 확인이 가능합니다! 화면 크기를 줄여주세요~!</span>
+  </div>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>
